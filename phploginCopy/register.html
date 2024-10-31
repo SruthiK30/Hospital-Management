@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container vh-100">
+        <div class="row justify-content-center h-100">
+            <div class="card w-25 my-auto shadow">
+                <div class="card-header text-center bg-primary text-white">
+                    <h2>Register</h2>
+                </div>
+                <div class="card-body">
+                    <form action="register.php" method="post" autocomplete="off">
+                        <!-- <input type="hidden" name="action" value="registration"> -->
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" name="myname" required /><br>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" name="myemail" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" class="form-control" name="mypassword" required/>
+                        </div>
+                        <input type="submit" class="btn btn-primary w-100" value="Register" name="register">
+                    </form>
+                </div>
+                <div class="card-footer text-right">
+                    <a href="login.html" style="padding-right:20px;">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
