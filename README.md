@@ -16,7 +16,7 @@ A PHP-based hospital management web app with user authentication and appointment
 
 ## Setup
 1. Clone this repo
-2. Import `database.sql` into MySQL (via phpMyAdmin or CLI) — *[add this file if you haven't yet]*
+2. Import `database.sql` into MySQL (via phpMyAdmin or CLI) 
 3. Update database credentials in `connect.php` with your own local MySQL username/password
 4. Run on a local server (e.g. XAMPP/WAMP) — place the project folder inside `htdocs`
 5. Visit `login.html` or `register.html` in your browser to get started
